@@ -83,7 +83,7 @@
 </section>
 <!--//w3-grids-->
 <!--/bottom-3-grids-->
-<div class=" w3l-3-grids py-5" id="grids-3">
+<!-- <div class=" w3l-3-grids py-5" id="grids-3">
     <div class="container py-md-4">
         <div class="row">
             <div class="col-md-6 mt-md-0">
@@ -115,7 +115,7 @@
 
         </div>
     </div>
-</div>
+</div> -->
 <!--//bottom-3-grids-->
 
 <!--/w3l-join-main-->

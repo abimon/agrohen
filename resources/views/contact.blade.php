@@ -27,7 +27,6 @@
         <div class="container">
             <div class="row contacts-5-grid-main mb-5">
                 <div class="col-lg-6 contacts-5-grid pe-lg-5">
-                    <h5 class="title-subw3hny">Contact our team</h5>
                     <h3 class="title-w3l mb-3">Get in touch with us</h3>
                     <p></p>
                     <h4 class="title-w3l-adinf mt-4">Address Info</h4>

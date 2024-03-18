@@ -39,6 +39,9 @@
                     <div class="address-grid d-flex">
                         <i class="fas fa-headset mt-2"></i>
                         <p><a href="tel:+254701971316" class="link1"> +254 701 971 316</a></p>
+                    </div>
+                    <div class="address-grid d-flex">
+                        <i class="fas fa-phone mt-2"></i>
                         <p><a href="tel:+254725759463" class="link1"> +254 725 759 463</a></p>
                     </div>
                     <div class="address-grid d-flex">
@@ -51,7 +54,7 @@
                     <form action="" method="post" class="signin-form">
                         <div class="form-grids">
                             <div class="form-input">
-                                <input type="text" name="w3lName" id="w3lName" placeholder="Enter your name *"
+                                <input type="text" name="name" id="w3lName" placeholder="Enter your name *"
                                     required="" />
                             </div>
                             <div class="form-input">
@@ -59,16 +62,16 @@
                                     required />
                             </div>
                             <div class="form-input">
-                                <input type="email" name="w3lSender" id="w3lSender" placeholder="Enter your email *"
+                                <input type="email" name="email" id="w3lSender" placeholder="Enter your email *"
                                     required />
                             </div>
                             <div class="form-input">
-                                <input type="text" name="w3lPhone" id="w3lPhone" placeholder="Enter your Phone Number *"
+                                <input type="text" name="phone" id="w3lPhone" placeholder="Enter your Phone Number *"
                                     required />
                             </div>
                         </div>
                         <div class="form-input">
-                            <textarea name="w3lMessage" id="w3lMessage" placeholder="Type your query here"
+                            <textarea name="message" id="w3lMessage" placeholder="Type your query here"
                                 required=""></textarea>
                         </div>
                         <div class="w3-submit text-right">

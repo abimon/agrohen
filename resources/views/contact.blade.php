@@ -88,8 +88,8 @@
 <div class="contacts-sub-5">
     <div class="contacts-mapw3 position-relative">
         <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387193.305935303!2d-74.25986548248684!3d40.69714941932609!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2sin!4v1563262564932!5m2!1sen!22sin"
-            style="border:0" allowfullscreen></iframe>
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15959.266118121688!2d34.774861227344175!3d-0.05428579127256299!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182aa15aa7665d1d%3A0x67cea69580b5e4a!2sMamboleo%20Estate%2C%20Kisumu!5e0!3m2!1sen!2ske!4v1710766182935!5m2!1sen!2ske"
+            style="border:0" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
 </div>
 @endsection

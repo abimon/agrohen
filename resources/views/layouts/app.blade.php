@@ -107,7 +107,7 @@ Author URL: http://w3layouts.com
                                 </li>
                                 <li><a href="#linkedin"><i class="fab fa-linkedin-in"></i></a>
                                 </li>
-                                <li><a href="#twitter"><i class="fab fa-twitter-x"></i></a>
+                                <li><a href="#twitter"><i class="fab fa-twitter"></i></a>
                                 </li>
 
                             </ul>
@@ -118,22 +118,22 @@ Author URL: http://w3layouts.com
                             <div class="col-xl-5 col-6 column">
                                 <h3>Links</h3>
                                 <ul class="footer-gd-16">
-                                    <li><a href="about.html">About Us</a></li>
-                                    <li><a href="services.html">Services</a></li>
+                                    <li><a href="/">About Us</a></li>
+                                    <li><a href="/products">Services</a></li>
 
-                                    <li><a href="about.html">Team</a></li>
-                                    <li><a href="#blog">Blog Posts</a></li>
-                                    <li><a href="contact.html">Contact Us</a></li>
+                                    <li><a href="/about">About Us</a></li>
+                                    <li><a href="/articles">Blog Posts</a></li>
+                                    <li><a href="/contact">Contact Us</a></li>
                                 </ul>
                             </div>
                             <div class="col-6 column">
                                 <h3>Products</h3>
                                 <ul class="footer-gd-16">
-                                    <li><a>Brown Eggs</a></li>
-                                    <li><a>Chicken Broiler</a></li>
-                                    <li><a>Free Shipping</a></li>
-                                    <li><a>Quality Matters</a></li>
-                                    <li><a>Poultry Cages</a></li>
+                                    <li><a href="#">Brown Eggs</a></li>
+                                    <li><a href="#">Chicken Broiler</a></li>
+                                    <li><a href="#">Free Shipping</a></li>
+                                    <li><a href="#">Quality Matters</a></li>
+                                    <li><a href="#">Poultry Cages</a></li>
                                 </ul>
                             </div>
                         </div>

@@ -10,6 +10,7 @@ Author URL: http://w3layouts.com
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>AGROHEN ENTERPRISE </title>
+    <meta name="description" content="Agrohen poultry enterprise is a private limited company that was incorporated under the constitution of Kenya government in the years 2021, dealing with production and distribution of improved kienyeji chicken.">
     <!--/google-fonts -->
     <link href="//fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
     <!--//google-fonts -->

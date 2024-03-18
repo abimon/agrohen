@@ -61,11 +61,11 @@
         <div class="w3l-stats-inner-inf">
             <div class="row stats-con">
                 <div class="col-lg-3 col-6 stats_info counter_grid">
-                    <p class="counter">2500 </p>
+                    <p class="counter">25 </p>
                     <h3>Products</h3>
                 </div>
                 <div class="col-lg-3 col-6 stats_info counter_grid">
-                    <p class="counter">1500 </p>
+                    <p class="counter">1500</p>
                     <h3>Expert Farmers</h3>
                 </div>
                 <div class="col-lg-3 col-6 stats_info counter_grid mt-lg-0 mt-4">
@@ -98,7 +98,7 @@
                 <div class="col-lg-5 w3l-project-in-right">
                     <div class="w3banner-content-btns">
                         <a href="about.html" class="btn btn-style btn-white mt-4">Read More </a>
-                        <a href="contact.html" class="btn btn-style btn-primary mt-4 ms-3">Contact Us</a>
+                        <a href="/contact" class="btn btn-style btn-primary mt-4 ms-3">Contact Us</a>
                     </div>
                 </div>
             </div>

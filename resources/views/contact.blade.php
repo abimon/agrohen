@@ -53,29 +53,26 @@
                     <form action="" method="post" class="signin-form">
                         <div class="form-grids">
                             <div class="form-input">
-                                <input type="text" name="name" id="w3lName" placeholder="Enter your name *"
-                                    required="" />
+                                <input type="text" name="name" id="w3lName" placeholder="Enter your name *" required="" />
                             </div>
                             <div class="form-input">
-                                <input type="text" name="w3lSubject" id="w3lSubject" placeholder="Enter subject "
-                                    required />
+                                <input type="text" name="subject" id="Subject" placeholder="Enter subject " required />
                             </div>
                             <div class="form-input">
-                                <input type="email" name="email" id="w3lSender" placeholder="Enter your email *"
-                                    required />
+                                <input type="email" name="email" id="Sender" placeholder="Enter your email *" required />
                             </div>
                             <div class="form-input">
-                                <input type="text" name="phone" id="w3lPhone" placeholder="Enter your Phone Number *"
-                                    required />
+                                <input type="text" name="phone" id="w3lPhone" placeholder="Enter your Phone Number *" required />
                             </div>
                         </div>
                         <div class="form-input">
-                            <textarea name="message" id="w3lMessage" placeholder="Type your query here"
-                                required=""></textarea>
+                            <textarea name="message" id="Message" placeholder="Type your query here" required=""></textarea>
                         </div>
                         <div class="w3-submit text-right">
-                            <button class="btn btn-style btn-primary">Send Message <i
-                                    class="fas fa-paper-plane ms-2"></i></button>
+                            <button class="btn btn-style btn-primary">
+                                Send Message
+                                <i class="fas fa-paper-plane ms-2"></i>
+                            </button>
                         </div>
                     </form>
                 </div>
@@ -87,9 +84,7 @@
 <!-- /map-->
 <div class="contacts-sub-5">
     <div class="contacts-mapw3 position-relative">
-        <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15959.266118121688!2d34.774861227344175!3d-0.05428579127256299!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182aa15aa7665d1d%3A0x67cea69580b5e4a!2sMamboleo%20Estate%2C%20Kisumu!5e0!3m2!1sen!2ske!4v1710766182935!5m2!1sen!2ske"
-            style="border:0" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15959.266118121688!2d34.774861227344175!3d-0.05428579127256299!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182aa15aa7665d1d%3A0x67cea69580b5e4a!2sMamboleo%20Estate%2C%20Kisumu!5e0!3m2!1sen!2ske!4v1710766182935!5m2!1sen!2ske" style="border:0" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
 </div>
 @endsection

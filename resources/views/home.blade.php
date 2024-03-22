@@ -16,12 +16,11 @@
                                 <span class="fa fa-play"></span>
                             </span>
                         </a>
-                        <!-- dialog itself, mfp-hide class is required to make dialog hidden --
-                                <div id="small-dialog" class="zoom-anim-dialog mfp-hide">
-                                  <iframe src="https://player.vimeo.com/video/26489864?h=0cb4432fb5" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-								  
-                                </div>
-								<!-- dialog itself, mfp-hide class is required to make dialog hidden -->
+                        <!-- dialog itself, mfp-hide class is required to make dialog hidden -->
+                        <!-- <div id="small-dialog" class="zoom-anim-dialog mfp-hide">
+                            <iframe src="https://player.vimeo.com/video/26489864?h=0cb4432fb5" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+                        </div> -->
+                        <!-- dialog itself, mfp-hide class is required to make dialog hidden -->
                     </div>
                 </div>
             </div>
@@ -49,7 +48,7 @@
 <!-- Services-section -->
 <section class="w3l-features py-5" id="features">
     <div class="container py-lg-5 py-md-4 py-2">
-        
+
         <div class="main-cont-wthree-2">
             <div class="row justify-content-center">
                 <div class="col-lg-4 col-md-6 mt-lg-5 mt-4">

@@ -44,7 +44,7 @@ Author URL: http://w3layouts.com
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link {{request()->path()=='articles'?'active':''}}" href="#">Articles</a>
+                            <a class="nav-link {{request()->path()=='article'?'active':''}}" href="article">Articles</a>
                         </li>
 
                         <li class="nav-item">

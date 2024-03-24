@@ -21,6 +21,7 @@
     </section>
 </div>
 <div class=" container row">
+    @if($article!=null)
     <div class="col-md-8">
         <div class="container p-3" style="min-height:400px;">
             <h2 class='f-bold text-start'>{{$article->title}}</h2>
@@ -80,6 +81,7 @@
 
         </div>
     </div>
+    @endif
     <div class="col-md-4 p-3">
         <h2 class="f-bold">Other Articles</h2>
         <hr>

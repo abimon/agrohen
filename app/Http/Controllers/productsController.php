@@ -2,83 +2,81 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Product;
 use Illuminate\Http\Request;
 
 class productsController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
     public function index()
     {
-        //
+        $products = product::all();
+        return view('products.index', compact('products'));
     }
 
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
     public function create()
     {
-        //
+        return view('products.create');
     }
 
-    /**
-     * Store a newly created resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
-     */
-    public function store(Request $request)
+    public function store()
     {
-        //
+        if (request()->hasFile('file')) {
+            $extension = request()->file('file')->getClientOriginalExtension();
+            $filename = time() . '.' . $extension;
+            request()->file('file')->storeAs('public/images/products', $filename);
+        } else {
+            return redirect()->back()->withInput()->with('error', 'No product image found. Please add one.');
+        }
+        Product::create([
+            'title' => request()->title,
+            'path' => $filename,
+            'price' => request()->price,
+            'desc' => request()->desc,
+        ]);
+        return redirect()->back();
     }
 
-    /**
-     * Display the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function show($id)
+    public function show()
     {
-        //
+        
     }
 
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
     public function edit($id)
     {
-        //
+        
     }
 
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function update(Request $request, $id)
+    public function update($id)
     {
-        //
+        $product = product::findOrFail($id);
+        if (request()->hasFile('file')) {
+            $extension = request()->file('file')->getClientOriginalExtension();
+            $filename = time() . '.' . $extension;
+            request()->file('file')->storeAs('public/images/products', $filename);
+            $product->path = $filename;
+        }
+        $product->title->request()->title;
+        $product->price = request()->price;
+        $product->desc = request()->desc;
+        $product->update();
+        return redirect()->back();
     }
 
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
     public function destroy($id)
     {
-        //
+        Product::destroy($id);
+        return redirect()->back();
+    }
+
+    public function home(){
+        $products = Product::all();
+        return view('products',compact('products'));
+    }
+
+    public function search(){
+        $keyword = request()->search;
+        // return $keyword;
+        $products = Product::where('title', 'LIKE', '%' . $keyword . '%')->get();
+        return view('products', compact('products'));
     }
 }

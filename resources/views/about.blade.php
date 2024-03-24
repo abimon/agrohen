@@ -26,7 +26,6 @@
         <div class="row align-items-center">
             <div class="col-lg-6 pe-lg-5">
                 <h3 class="title-w3l mb-2">Our Info</h3>
-
                 <p class="mt-3">Agrohen poultry enterprise is a private limited company that was incorporated under the constitution of Kenya government in the years 2021, dealing with production and distribution of improved kienyeji chicken. We are located in Mamboleo estate, Kisumu city with several outlets throughout the country. Under the management of Mr. Hillary Awidhi, a financial consultant and a business analyst with a vast experience in poultry industry as the company CEO, with a board of directors and a motivated team, the company is destined to capture the evident business gap in the industry.</p>
                 <div class="row two-grids mt-5 pt-lg-4">
                     <div class="col-sm-6 grids_info d-flex mt-sm-0 mt-4">

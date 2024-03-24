@@ -30,20 +30,31 @@
         </div>
         <div class="main-cont-wthree-2">
             <div class="row gal-page-grids text-center">
-                @foreach($gals as $gal)
+                @if($products->count()>0)
+                @foreach($products as $product)
                 <div class="col-lg-4 col-6 w3layouts_gallery_grid">
                     <a href="#gal">
                         <div class="w3layouts_team_grid">
-                            <img src="{{asset('storage/assets/images/'.$gal['image'].'.jpeg')}}" alt=" " class="img-fluid radius-image" style="width: 100%;height:200px;object-fit:cover;" />
+                            <img src="{{asset('storage/images/products/'.$product->path)}}" alt=" " class="img-fluid radius-image" style="width: 100%;height:200px;object-fit:cover;" />
                             <div class="w3layouts_team_grid_pos">
                                 <div class="wthree_text">
-                                    <h2 class="text-white">{{$gal['title']}}</h2>
+                                    <h2 class="text-white">{{$product->title}}</h2>
                                 </div>
                             </div>
                         </div>
                     </a>
+                    <div class="row d-flex justify-content-between">
+                        <h5 class="col-md-8">{{$product->title}}</h5>
+                        <p class="col-md-4">Ksh. {{$product->price}}</p>
+                    </div>
+                    <div class="d-flex justify-content-end">
+                        <a href="https://wa.me/+254701971316?text=Hello! I wish to order the {{$product->title}}" target="_blank"><button class="btn btn-primary"> Place Order</button></a>
+                    </div>
                 </div>
                 @endforeach
+                @else
+                <h3>Oooops! No products found.</h3>
+                @endif
             </div>
 
         </div>

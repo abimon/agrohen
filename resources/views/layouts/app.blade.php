@@ -60,7 +60,8 @@ Author URL: http://w3layouts.com
                             <div id="search" class="pop-overlay">
                                 <div class="popup">
                                     <h3 class="title-w3l two mb-4 text-left">Search Here</h3>
-                                    <form action="#" method="GET" class="search-box d-flex position-relative">
+                                    <form action="/search" method="get" class="search-box d-flex position-relative">
+                                        @csrf
                                         <input type="search" placeholder="Enter Keyword here" name="search" required="required" autofocus="">
                                         <button type="submit" class="btn"><span class="fas fa-search" aria-hidden="true"></span></button>
                                     </form>
@@ -83,10 +84,12 @@ Author URL: http://w3layouts.com
                                 </div>
                             </label>
                         </div>
+
                     </nav>
                 </div>
-                <!-- //toggle switch for light and dark theme -->
-
+                <div class="ms-4">
+                    <a href="/admin"><i class="fa fa-user fa-2x text-"></i></a>
+                </div>
             </nav>
         </div>
     </header>

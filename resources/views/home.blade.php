@@ -83,7 +83,20 @@
     </div>
 </section>
 <!--End Service-section -->
-
+<section class="w3l-stats-section py-5 pt-0" id="stats">
+    <div class="container py-md-5 pt-0">
+        <div class="w3l-stats-inner-inf">
+            <h2 class="text-center">Our Partners</h2>
+            <div class="row stats-con">
+                @for($k=1;$k<=12;$k++)
+                <div class="col stats_info counter_grid mt-4">
+                    <img src="{{asset('storage/Logos/'.$k.'.jpeg')}}" style="height:60px;object-fit:scale-down;" alt="">
+                </div>
+                @endfor
+            </div>
+        </div>
+    </div>
+</section>
 <section class="w3l-newsletter">
     <div class="container">
         <div class="uphny-w3l-newsletter-inf">

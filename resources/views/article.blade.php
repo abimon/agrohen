@@ -6,13 +6,13 @@
             <div class="w3breadcrumb-gids">
                 <div class="w3breadcrumb-left text-left">
                     <h2 class="inner-w3-title mt-lg-3 mt-1 text-capitalize">
-                        Article</h2>
+                        Articles</h2>
 
                 </div>
                 <div class="w3breadcrumb-right">
                     <ul class="breadcrumbs-custom-path">
                         <li><a href="/">Home</a></li>
-                        <li class="active"><span class="fas fa-arrow-right mx-2"></span> Article</li>
+                        <li class="active"><span class="fas fa-arrow-right mx-2"></span> Articles</li>
                     </ul>
                 </div>
             </div>
@@ -21,7 +21,7 @@
     </section>
 </div>
 <div class=" container row">
-    @if($article!=null)
+    @if($article)
     <div class="col-md-8">
         <div class="container p-3" style="min-height:400px;">
             <h2 class='f-bold text-start'>{{$article->title}}</h2>
@@ -81,7 +81,6 @@
 
         </div>
     </div>
-    @endif
     <div class="col-md-4 p-3">
         <h2 class="f-bold">Other Articles</h2>
         <hr>
@@ -92,6 +91,8 @@
             @endforeach
         </ul>
     </div>
+    @endif
+    
 </div>
 <script async src="https://static.addtoany.com/menu/page.js"></script>
 @endsection

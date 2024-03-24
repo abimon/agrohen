@@ -123,10 +123,10 @@ Author URL: http://w3layouts.com
                                 <h3>Links</h3>
                                 <ul class="footer-gd-16">
                                     <li><a href="/">About Us</a></li>
-                                    <li><a href="/products">Services</a></li>
+                                    <li><a href="/products">Products</a></li>
 
                                     <li><a href="/about">About Us</a></li>
-                                    <li><a href="/articles">Blog Posts</a></li>
+                                    <li><a href="/articles">Articles</a></li>
                                     <li><a href="/contact">Contact Us</a></li>
                                 </ul>
                             </div>

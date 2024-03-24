@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Article;
+use App\Models\Message;
 use App\Models\User;
 use App\Models\Viewer;
 use Illuminate\Http\Request;
@@ -16,7 +17,8 @@ class HomeController extends Controller
     public function dashboard()
     {
         $users = User::where('isAdmin', false)->get();
-        return view('admin.dashboard', compact('users'));
+        $messages = Message::all();
+        return view('admin.dashboard', compact('users','messages'));
     }
     public function articles()
     {

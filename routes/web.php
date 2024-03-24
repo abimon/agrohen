@@ -4,7 +4,9 @@ use App\Http\Controllers\articlesController;
 use App\Http\Controllers\Comment;
 use App\Http\Controllers\CommentsController;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\MessageController;
 use App\Http\Controllers\productsController;
+use App\Models\Message;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
@@ -28,6 +30,7 @@ Route::get('/article/{slug}',[HomeController::class,'article']);
 Route::get('/like/{id}',[articlesController::class,'like']);
 Route::resources([
     'comment'=>CommentsController::class,
+    'message'=>MessageController::class,
 ]);
 Route::get('/products', [productsController::class,'home']);
 Route::get('/search', [productsController::class,'search']);

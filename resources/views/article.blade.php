@@ -91,6 +91,8 @@
             @endforeach
         </ul>
     </div>
+    @else
+    <h3 class="text-center">Oooops! No articles available currently.</h3>
     @endif
     
 </div>

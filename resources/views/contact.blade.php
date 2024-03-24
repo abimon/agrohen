@@ -50,7 +50,8 @@
                 </div>
 
                 <div class="col-lg-6 form-inner-cont mt-lg-0 mt-4">
-                    <form action="" method="post" class="signin-form">
+                    <form action="{{route('message.store')}}" method="post" class="signin-form">
+                        @csrf
                         <div class="form-grids">
                             <div class="form-input">
                                 <input type="text" name="name" id="w3lName" placeholder="Enter your name *" required="" />

@@ -2,10 +2,6 @@
 @section('dashboard')
 <div class="page-breadcrumb bg-white">
     <div class="row align-items-center">
-        <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
-            <h4 class="page-title">Stock</h4>
-        </div>
-
         <div class="col-lg-9 col-sm-8 col-md-8 col-xs-12">
             <div class="d-md-flex">
                 <ol class="breadcrumb ms-auto">
@@ -139,25 +135,6 @@
                                                     @csrf
                                                     @method('PUT')
                                                     <div class="modal-body">
-
-                                                        <div class="row mb-3">
-                                                            <label for="productImage" class="col-md-4 col-form-label">Product Image</label>
-                                                            <div class="col-md-6">
-                                                                <img id="output" src="{{asset('storage/images/products/'.$product['path'])}}" style="width:100px;" />
-                                                                <input type="file" accept="image/jpeg, image/png" name="file" id="file" style="display: none;" class="form-control" onchange="loadFile(event)">
-
-                                                                <script>
-                                                                    var loadFile = function(event) {
-                                                                        var image = document.getElementById('output');
-                                                                        image.src = URL.createObjectURL(event.target.files[0]);
-                                                                        document.getElementById('output').value == image.src;
-                                                                    };
-                                                                </script>
-                                                                <div class="pt-2">
-                                                                    <a href="#" class="btn btn-primary btn-sm " title="Upload new profile image"><label for="file" class="text-white"><i class="bi bi-upload"></i> Change Image</label></a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
                                                         <div class="row mb-3">
                                                             <label for="name" class="col-md-4 col-form-label text-md-end">{{ __('Product Name') }}</label>
                                                             <div class="col-md-6">
@@ -198,15 +175,13 @@
                                                     </div>
                                                     <div class="modal-footer">
                                                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                                        <a href="{{route('product.edit',$product->id)}}"><button type="button" class="btn btn-danger">Destroy</button></a>
+                                                        <a href="{{route('product.edit',$product->id)}}"><button type="button"  class="btn btn-danger">Destroy</button></a>
                                                         <button type="submit" class="btn btn-primary">Update Product</button>
                                                     </div>
                                                 </form>
                                             </div>
                                         </div>
                                     </div>
-
-
                             </tr>
                             @endforeach
                         </tbody>

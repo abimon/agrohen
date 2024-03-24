@@ -43,19 +43,21 @@ class productsController extends Controller
 
     public function edit($id)
     {
-        
+        Product::destroy($id);
+        return redirect()->back();
     }
 
     public function update($id)
     {
         $product = product::findOrFail($id);
+        dd(request());
         if (request()->hasFile('file')) {
             $extension = request()->file('file')->getClientOriginalExtension();
             $filename = time() . '.' . $extension;
             request()->file('file')->storeAs('public/images/products', $filename);
             $product->path = $filename;
         }
-        $product->title->request()->title;
+        $product->title=request()->title;
         $product->price = request()->price;
         $product->desc = request()->desc;
         $product->update();
@@ -64,8 +66,8 @@ class productsController extends Controller
 
     public function destroy($id)
     {
-        Product::destroy($id);
-        return redirect()->back();
+       
+        
     }
 
     public function home(){

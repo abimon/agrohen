@@ -137,6 +137,7 @@
                                                 </div>
                                                 <form method="post" action="{{route('product.update',$product->id)}}" enctype="multipart/form-data">
                                                     @csrf
+                                                    @method('PUT')
                                                     <div class="modal-body">
 
                                                         <div class="row mb-3">

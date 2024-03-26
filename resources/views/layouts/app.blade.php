@@ -107,11 +107,13 @@ Author URL: http://w3layouts.com
                         <p class="mt-3"></p>
                         <div class="columns-2 mt-lg-5 mt-4">
                             <ul class="social">
-                                <li><a href="#facebook"><i class="fab fa-facebook-f"></i></a>
+                                <li><a href="https://www.facebook.com/profile.php?id=100095148372888"><i class="fab fa-facebook-f"></i></a>
                                 </li>
-                                <li><a href="#linkedin"><i class="fab fa-linkedin-in"></i></a>
+                                <!-- <li><a href=""><i class="fab fa-twitter"></i></a>
+                                </li> -->
+                                <li><a href=" https://www.instagram.com/agrohen_poultry?igsh=YzljYTk1ODg3Zg=="><i class="fab fa-instagram"></i></a>
                                 </li>
-                                <li><a href="#twitter"><i class="fab fa-twitter"></i></a>
+                                <li><a href="tiktok.com/@agrohen_001"><i class="fab fa-tiktok"></i></a>
                                 </li>
 
                             </ul>

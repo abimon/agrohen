@@ -185,7 +185,7 @@ Author URL: http://w3layouts.com
                 <div class="below-section text-center pt-lg-4 mt-5">
                     <p class="copy-text">&copy; {{date('Y')}} Agrohen Enterprise. All rights reserved. </a>
                     </p>
-                    <p class="copy-text">Design by <a href="https://apekinc.top" target="_blank"> <span class="text-info">APEK</span> <span class="text-white">INC</span></p>
+                    
                     <ul class="footer-gd-16 d-flex justify-content-center">
                         <li><a href="#terms">Terms
                             </a></li>
@@ -193,6 +193,7 @@ Author URL: http://w3layouts.com
                         </li>
                         <li><a href="#policy">Privacy Policy</a></li>
                     </ul>
+                    <p class="copy-text">Design by <a href="https://apekinc.top" target="_blank"> <span class="text-info">APEK</span> <span class="text-white">INC</span></p>
                 </div>
             </div>
         </div>

@@ -30,7 +30,7 @@
 
                 <p class="mt-3">We simply exist to empower the western region with sustainable and profitable poultry farming. We achieve this by:</p>
                 <ul style="padding-left:5vw;">
-                    <li>Hatching and distributing healthy, high-yielding improved Kienyeji chicks. </li>
+                    <li>&easter; Hatching and distributing healthy, high-yielding improved Kienyeji chicks. </li>
                     <li>Providing access to quality poultry equipment to optimize your farm's efficiency. </li>
                     <li>Offering practical, hands-on training on best practices in poultry management. </li>
                     <li>Promoting resource pooling and cooperative production for greater success and shared prosperity.</li>

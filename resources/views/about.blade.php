@@ -26,20 +26,30 @@
         <div class="row align-items-center">
             <div class="col-lg-6 pe-lg-5">
                 <h3 class="title-w3l mb-2">Our Info</h3>
-                <p class="mt-3">Agrohen poultry enterprise is a private limited company that was incorporated under the constitution of Kenya government in the years 2021, dealing with production and distribution of improved kienyeji chicken. We are located in Mamboleo estate, Kisumu city with several outlets throughout the country. Under the management of Mr. Hillary Awidhi, a financial consultant and a business analyst with a vast experience in poultry industry as the company CEO, with a board of directors and a motivated team, the company is destined to capture the evident business gap in the industry.</p>
+                <p class="mt-3">Founded in 2020 and based in western region, Agrohen is more than just a hatchery. We're your one-stop shop for high-quality improved Kienyeji chicks, top-of-the-line poultry equipment, and expert training to unlock the potential of your poultry farm.</p>
+
+                <p class="mt-3">We simply exist to empower the western region with sustainable and profitable poultry farming. We achieve this by:</p>
+                <ul style="list-style:none;">
+                    <li>* Hatching and distributing healthy, high-yielding improved Kienyeji chicks. </li>
+                    <li>* Providing access to quality poultry equipment to optimize your farm's efficiency. </li>
+                    <li>* Offering practical, hands-on training on best practices in poultry management. </li>
+                    <li>* Promoting resource pooling and cooperative production for greater success and shared prosperity.</li>
+                </ul>
+
+                <p class="mt-3">At Agrohen, we believe in the power of community. We're committed to supporting local farmers with the knowledge and resources they need to build thriving poultry businesses. Join us on the journey to a sustainable and prosperous future for western's poultry industry.</p>
                 <div class="row two-grids mt-5 pt-lg-4">
                     <div class="col-sm-6 grids_info d-flex mt-sm-0 mt-4">
                         <i class="fas fa-bullseye"></i>
                         <div class="detail ms-3">
                             <h4>Mission</h4>
-                            <p>To provide  the community with quality chicken breeds, training and influence to build sustainable poultry ecosystem that generates decent earning to my community.</p>
+                            <p>To provide high-quality kienyeji chicks and equipment to small-holder farmers in western region, Kenya, and to help them improve their livelihoods.</p>
                         </div>
                     </div>
                     <div class="col-sm-6 grids_info d-flex">
                         <i class="fas fa-binoculars"></i>
                         <div class="detail ms-3">
                             <h4>Vision</h4>
-                            <p>To be a leading center for production and distribution of quality chicks as well as training and influencing community into sustainable chicken farming in my region </p>
+                            <p>To be the leading provider of kienyeji chicks and equipment to small-holder farmers in Kenya, and to help them achieve food security and economic independence.</p>
                         </div>
                     </div>
                 </div>

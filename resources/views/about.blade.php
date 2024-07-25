@@ -29,7 +29,7 @@
                 <p class="mt-3">Founded in 2020 and based in western region, Agrohen is more than just a hatchery. We're your one-stop shop for high-quality improved Kienyeji chicks, top-of-the-line poultry equipment, and expert training to unlock the potential of your poultry farm.</p>
 
                 <p class="mt-3">We simply exist to empower the western region with sustainable and profitable poultry farming. We achieve this by:</p>
-                <ul style="list-style:none; padding-left:5vw;">
+                <ul style="list-style:square; padding-left:5vw;">
                     <li>Hatching and distributing healthy, high-yielding improved Kienyeji chicks. </li>
                     <li>Providing access to quality poultry equipment to optimize your farm's efficiency. </li>
                     <li>Offering practical, hands-on training on best practices in poultry management. </li>

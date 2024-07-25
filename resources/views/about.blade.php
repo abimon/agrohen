@@ -38,14 +38,14 @@
 
                 <p class="mt-3">At Agrohen, we believe in the power of community. We're committed to supporting local farmers with the knowledge and resources they need to build thriving poultry businesses. Join us on the journey to a sustainable and prosperous future for western's poultry industry.</p>
                 <div class="row two-grids mt-5 pt-lg-4">
-                    <div class="col-sm-6 grids_info d-flex mt-sm-0 mt-4">
+                    <div class="grids_info d-flex mt-sm-0 mt-4">
                         <i class="fas fa-bullseye"></i>
                         <div class="detail ms-3">
                             <h4>Mission</h4>
                             <p>To provide high-quality kienyeji chicks and equipment to small-holder farmers in western region, Kenya, and to help them improve their livelihoods.</p>
                         </div>
                     </div>
-                    <div class="col-sm-6 grids_info d-flex">
+                    <div class="grids_info d-flex">
                         <i class="fas fa-binoculars"></i>
                         <div class="detail ms-3">
                             <h4>Vision</h4>
